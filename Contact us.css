@@ -1,0 +1,41 @@
+#contact-us {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#contact-us h2 {
+  text-align: center;
+}
+
+#contact-us form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-us label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#contact-us input, #contact-us textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#contact-us button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact-us .contact-info {
+  text-align: center;
+  margin-top: 20px;
+}
